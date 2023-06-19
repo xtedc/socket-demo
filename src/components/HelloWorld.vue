@@ -52,7 +52,7 @@ export default {
     }
   },
   mounted() {
-
+    // test brand
     const socket = io('http://localhost:3000');
     socket.emit('login', this.userInfo)
     socket.on('login', data => {
